@@ -1,0 +1,57 @@
+<html>
+<head>
+    <style type="text/css" media="all">
+        @page {
+            size: A4 portrait; /* can use also 'landscape' for orientation */
+            margin: 0;
+            border: thin solid black;
+            padding: 0;
+
+            @bottom-center {
+                content: element(footer);
+            }
+
+            @top-center {
+                content: element(header);
+            }
+        }
+
+        #page-header {
+            display: block;
+            position: running(header);
+        }
+
+        #page-footer {
+            display: block;
+            position: running(footer);
+        }
+
+        .page-number:before {
+            content: counter(page);
+        }
+
+        .page-count:before {
+            content: counter(pages);
+        }
+    </style>
+</head>
+
+<body style="background-color:pink">
+<div id="page-header">
+    <p>Header text</p>
+</div>
+
+<div id="page-footer">
+    <p>Footer text</p>
+    <p>Page <span class="page-number"/> of <span class="page-count"/></p>
+</div>
+
+<div id="page-content">
+    <p>Page 1.</p>
+
+    <p style="page-break-after:always;"/>
+
+    <p>Page 2.</p>
+</div>
+</body>
+</html>
