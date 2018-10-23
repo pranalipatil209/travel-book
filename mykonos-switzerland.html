@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.travelibro.com/styles/avenir-font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+    <title>First Activity</title>
+    <style>
+        @font-face {
+            font-family: "AvenirLTStd-Black";
+            src: url("fonts/AvenirLTStd-Black.otf");
+        }
+
+        @font-face {
+            font-family: "AvenirLTStd-Heavy";
+            src: url("fonts/AvenirLTStd-Heavy.otf");
+        }
+
+        @font-face {
+            font-family: "AvenirLTStd-Light";
+            src: url("fonts/AvenirLTStd-Light.otf");
+        }
+
+        @font-face {
+            font-family: "AvenirLTStd-Medium";
+            src: url("fonts/AvenirLTStd-Medium.otf");
+        }
+
+        @font-face {
+            font-family: "AvenirLTStd-Roman";
+            src: url("fonts/AvenirLTStd-Roman.otf");
+        }
+        .avenir-black {
+            font-family: "AvenirLTStd-Black";
+        }
+        .avenir-heavy {
+            font-family: "AvenirLTStd-Heavy";
+        }
+        .avenir-light {
+            font-family: "AvenirLTStd-Light";
+        }
+        .avenir-medium {
+            font-family: "AvenirLTStd-Medium";
+        }
+        .avenir-roman {
+            font-family: "AvenirLTStd-Roman";
+        }
+        .clearfix {
+            overflow: auto;
+        }
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+        .pull-left { float: left; }
+        .pull-right { float: right; }
+        .clearfix-pro:before {
+            content: '';
+            clear: both;
+            display: block;
+        }
+        .clearfix-pro:after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+        .break-before{
+            page-break-before: always;
+        }
+        body {
+            background-color: #0f0f0f;
+            width: 1010px;
+            height: 1474px;
+            font-family: AvenirLTStd-Medium;
+        }
+        .break-after {
+            page-break-after: always;
+            page-break-before: always;
+        }
+        .m-center {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform:translateY(-50%);
+        }
+        .alphabet-space {
+            letter-spacing: 3px;
+            text-shadow: 1px 1px grey;
+        }
+        div {
+            overflow: hidden;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        .username {
+            font-family: AvenirLTStd-Heavy;
+            font-size: 35px;
+        }
+        .digits {
+            color: #000000;
+            font-size: 65px;
+            font-family: AvenirLTStd-Heavy;
+            -webkit-margin-after: 0;
+        }
+        .tags {
+            color: #808080;
+            font-size: 25px;
+            font-family: AvenirLTStd-Heavy;
+            -webkit-margin-before: 0.2em;
+        }
+        .dig-tab td{
+            padding: 0 25px;
+        }
+        @page:first {
+            size: 5.5in 8.5in;
+            margin: 0;
+        }
+        .new-page {
+            width:100%;
+            height: 1474px;
+            overflow: hidden;
+        }
+
+        /*.inline-content li:last-child > .inline-content li::after {*/
+        /*content: "";*/
+        /*}*/
+    </style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!--COVER PAGE START-->
+<div class="break-after bg-white new-page">
+    <div
+            style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/October/03_10_2018/d7e9c4bf03eb9b701d6edbd6ea90f8c9/072308_d7e9c4bf03eb9b701d6edbd6ea90f8c9.jpg);background-size: cover;background-repeat: no-repeat;">
+        <div class="m-center"
+             style="text-align: center;font-size: 100px;font-weight: 800;color:#ffffff;text-transform:uppercase">
+            <text class="avenir-heavy alphabet-space">Qatar / Mykonos, Greece / Jungfrau, Switzerland</text>
+        </div>
+    </div>
+</div>
+<!--COVER PAGE END-->
+
+
+<!--2nd PAGE BLANK START-->
+<div class="break-after bg-white new-page">
+    <div style="height: 100%;"></div>
+</div>
+<!--2nd PAGE BLANK END-->
+
+
+<!--JOURNEY CREATOR START-->
+<div class="break-after bg-white new-page" >
+    <div class="holder" style="height: 1474px;position: relative">
+        <div style="float: right; overflow: hidden">
+            <div style="height: 180px;"></div>
+            <div style="width: 650px;height: 650px;background-color: gray;float: right;overflow: hidden;position:
+            relative;page-break-inside: avoid;display: block;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2017/May/13_05_2017/5998917a0def34b8fc8f991a776c5e82/172435_5998917a0def34b8fc8f991a776c5e82.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div class="username" style="width:100%;color: #000000;text-align: right"><p>@roamaroo</p></div>
+        </div>
+
+        <div style="position: absolute;bottom: 0;right: 0;">
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        <div style="float: right;text-align: right;">
+                            <div style="color: #808080;font-size: 23px;font-family: AvenirLTStd-Heavy;">
+                                <p style="-webkit-margin-after: 0">Countries Visited</p>
+                            </div>
+                            <div class="countries-visited" style="color: #000000;font-size: 25px;font-family: AvenirLTStd-Heavy">
+                                <p>United States | Qatar | Greece | Switzerland.</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="float: right;">
+                            <table class="dig-tab" style="text-align: center">
+                                <tbody>
+                                <tr>
+                                    <td><p class="digits">11</p></td>
+                                    <td><p class="digits">84</p></td>
+                                    <td><p class="digits">54</p></td>
+                                </tr>
+                                <tr>
+                                    <td height="10px"></td>
+                                </tr>
+                                <tr>
+                                    <td><p class="tags">Days</p></td>
+                                    <td><p class="tags">Photos</p></td>
+                                    <td><p class="tags">Locations</p></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--JOURNEY CREATOR END-->
+
+
+<!--JOURNEY POSTS START-->
+
+<!--IF COUNTRY HAS CHANGED/NEW COUNTRY START-->
+
+<!--DAY 01-->
+<!--POST 1  -->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div style="height:100%;">
+        <div class="m-center">
+            <div>
+                <p style="color:#e5e5e5;text-align: left;font-weight: 900;font-family: AvenirLTStd-Heavy;
+                font-size:170px;line-height: 90%;-webkit-margin-after: 0;text-transform: uppercase">United States</p>
+            </div>
+            <div style="width: 50%;float: right;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 35px;">
+                    @American Express Centurion Lounge, Tinicum Township</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    We are on our way to our next adventure - first stop, Qatar. We’ve dreamed of flying first class on Qatar Airways as it’s known to be the best service in the skies!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="break-after bg-white new-page" style="position: relative">
+    <div style="height: 1474px;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/17_09_2018/7be3e4f8344d74e3388ff9cacd36d3ff/231325_7be3e4f8344d74e3388ff9cacd36d3ff.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+</div>
+<div class="break-after bg-white new-page">
+    <div style="width: 100%;height:100%;position: relative">
+        <img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/17_09_2018/22f84e0984f883d61e0df9fcd5cd2b3f/231326_22f84e0984f883d61e0df9fcd5cd2b3f.jpg"
+             style="width:100%;position: absolute;top:50%;left:50%;
+        transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">
+        <!--<div-->
+        <!--style="width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>-->
+    </div>
+</div>
+<!--POST 1 END-->
+<!--POST 2-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/18_09_2018/2df0bc9079b7388e33ca00e3ac0bc33f/012342_2df0bc9079b7388e33ca00e3ac0bc33f.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 10px;">
+                    @Philadelphia International Airport (PHL), Philadelphia</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    We made it onto our Qatar Airways A350 Business Class flight to Doha. We are SO impressed with the service, the seats, and the entire aircraft. This is going to be a FUN 12.5 hours!                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="break-after bg-white new-page">
+    <div style="height: 100%;margin: auto;position: relative">
+        <img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/18_09_2018/cf04f25c48b8e610b010122bd21d59ab/012344_cf04f25c48b8e610b010122bd21d59ab.jpg"
+             style="height:100%;position: absolute;left: 50%;transform: translateX(-50%);-webkit-transform:translateX(-50%);" alt="">
+        <!--<div style="height: 100%;width: auto;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>-->
+    </div>
+</div>
+<!--POST 2 END-->
+<!--POST 3-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/18_09_2018/9945f2c6b18499908c46c5c4c232a0e1/012506_9945f2c6b18499908c46c5c4c232a0e1.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 10px;">
+                    @Philadelphia International Airport (PHL), Philadelphia</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    Qatar Airways business class on their A350 is chic, swanky, and very spacious. There are cubbies for your shoes, noise cancelling headphones, and fully lie-flat seats!            </div>
+        </div>
+    </div>
+</div>
+<!--POST 3 END-->
+<!--POST 4-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div style="height:100%;">
+        <div class="m-center">
+            <div>
+                <p style="color:#e5e5e5;text-align: left;font-weight: 900;font-family: AvenirLTStd-Heavy;
+                font-size:170px;line-height: 90%;-webkit-margin-after: 0;text-transform: uppercase">Qatar</p>
+            </div>
+            <div style="width: 50%;float: right;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 35px;">
+                    @Hamad International Airport, Doha</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    What an amazing nights sleep on the new A350 from Qatar Air! We are completely obsessed with this plane!                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="break-after bg-white new-page" style="position: relative">
+    <div style="height: 1474px;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/bfc5a4b567b6847d2b292005a6f93e5d/022315_bfc5a4b567b6847d2b292005a6f93e5d.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+</div>
+<div class="break-after bg-white new-page">
+    <div style="height: 100%;margin: auto;position: relative">
+        <img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/970aeee637e070142444e10dc0bb01a9/022316_970aeee637e070142444e10dc0bb01a9.jpg"
+             style="height:100%;position: absolute;left: 50%;transform: translateX(-50%);-webkit-transform:translateX(-50%);" alt="">
+        <!--<div style="height: 100%;width: auto;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>-->
+    </div>
+</div>
+<!--POST 4 END-->
+<!--POST 5-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/82abc232ce859b8f828c30552e3a6ce8/022618_82abc232ce859b8f828c30552e3a6ce8.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 10px;">
+                    @Hamad International Airport</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    12.5 hours later and we are making our landing at Hamad International Airport! We are so excited to land in Doha!        </div>
+        </div>
+    </div>
+</div>
+<!--POST 5 END-->
+<!--POST 6-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/325145ec53a8204771f5b05259648f62/022608_325145ec53a8204771f5b05259648f62.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 10px;">
+                    @Oryx Airport Hotel, الدوحة</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    We highly recommend a layover at Hamad International Airport. The airport hotel has a swimming pool, spa, and gym all located INSIDE of the airport terminal!        </div>
+        </div>
+    </div>
+</div>
+<!--POST 6 END-->
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/4279ab6263b195505637f98fde513fca/010204_4279ab6263b195505637f98fde513fca.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <div style="padding-left: 15px;position: absolute;bottom: 20px">
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                            @Shilin Night Market</p>
+                        <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                            The Shilin night market was so much fun! We spent hours playing random games (most of the time loosing) but between us all we won 4 prizes which we were quite proud of haha. We ended the night at around 10pm and immediately crashed after a long but awesome first day! I’m excited to see what tomorrow brings!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+            </div>
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/85c25c3f135db315780ab95af8d4005b/010209_85c25c3f135db315780ab95af8d4005b.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <!--<div style="height: 80px;"></div>-->
+    <div style="height: 100%;margin: auto;position: relative">
+        <img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg"
+             style="height:100% ;position: absolute;top:50%;left:50%;
+        transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">
+        <!--<div style="height: 100%;width: auto;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>-->
+    </div>
+    <div style="width: 750px;margin: auto">
+        <!--<div style="float: left;width: 450px;">-->
+        <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>-->
+        <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">-->
+        <!--@Taipei Hotel</p>-->
+        <!--<p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">-->
+        <!--A few days ago I was sat on the beach in Bali with Lauren, Jacob, and Hayley when we all decided-->
+        <!--to spontaneously book a trip to a new destination; Taipei! None of us knew anything about this-->
+        <!--place so we were pretty excited to explore! We arrived late at night & checked into our hotel-->
+        <!--(Palais de Chine)!-->
+        <!--</p>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--DAY 01 END-->
+
+<!--DAY 02-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/515f8cb378d4366244f314cdd2c963d8/042136_515f8cb378d4366244f314cdd2c963d8.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 02</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                    @Taipei</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    After a bit of research we decided to start the dayoff with breakfast at a healthy cafe called ‘untitled’ known for delicious avo toast! The food was amazing and the black tea art was really cool. However if you’re in a hurry I wouldn’t recommend as they take a longgg time to bring out the food! Worth it though if you do have time!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/999e4b103b8b10a6240ccfc056bd6d3a/042141_999e4b103b8b10a6240ccfc056bd6d3a.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <!--<div style="padding-left: 15px;position: absolute;bottom: 20px">-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">-->
+                    <!--@Shilin Night Market</p>-->
+                    <!--<p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">-->
+                    <!--The Shilin night market was so much fun! We spent hours playing random games (most of the time loosing) but between us all we won 4 prizes which we were quite proud of haha. We ended the night at around 10pm and immediately crashed after a long but awesome first day! I’m excited to see what tomorrow brings!-->
+                    <!--</p>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <div style="padding-right: 15px;position: absolute;bottom: 20px">
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day
+                            02</p>
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                        </p>
+                        <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                            The weather was pretty terrible so we decided to take shelter at the 101 shopping mall for the rest of the day. Since we didn’t have much of a cultural breakfast we decided to hit up a dumpling restaurant for lunch. This place was super busy and had a continuous waiting list, but for a good reason - the food was incredible!                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/fe4f1b6f291ef9e95ac5142f9872dd5f/042841_fe4f1b6f291ef9e95ac5142f9872dd5f.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/aed18861ef842393d427c45764caa9e9/042847_aed18861ef842393d427c45764caa9e9.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                </div>
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/71a448503c6be9345bc8b68c700d7eaf/042851_71a448503c6be9345bc8b68c700d7eaf.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/32bee1653bc2a228d47a81abde5f0425/043617_32bee1653bc2a228d47a81abde5f0425.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <div style="padding-left: 15px;position: absolute;bottom: 20px">
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 02</p>
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                        </p>
+                        <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                            We ended the night with some cocktails at a members only bar called staff only. It’s a really cool bar located in a back street. There’s no signs or anything so unless you’re looking for it you wouldn’t stumble upon the place. After entering we were taken upstairs to the quirky seating area where we ordered our drinks and a few snacks. The drinks were tasty but very strong, which is always a good thing!                     </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <!--<div style="padding-right: 15px;position: absolute;bottom: 20px">-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day-->
+                    <!--02</p>-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">-->
+                    <!--</p>-->
+                    <!--<p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">-->
+                    <!--The weather was pretty terrible so we decided to take shelter at the 101 shopping mall for the rest of the day. Since we didn’t have much of a cultural breakfast we decided to hit up a dumpling restaurant for lunch. This place was super busy and had a continuous waiting list, but for a good reason - the food was incredible!                        </p>-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/fc7be59f49e87f716e9fc9b087ae1479/043636_fc7be59f49e87f716e9fc9b087ae1479.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/69fd8bbdadb32e214cd2cacf0dc045c8/043642_69fd8bbdadb32e214cd2cacf0dc045c8.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/9ccd82eefd4de1b38438ff830c4e4d84/004954_9ccd82eefd4de1b38438ff830c4e4d84.jpg"-->
+                <!--style="height: 100%;width: auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+            <div
+                    style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                float: right;position: relative;">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/b52a104d181ef92db48cf5e19392e9c2/043646_b52a104d181ef92db48cf5e19392e9c2.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/9ccd82eefd4de1b38438ff830c4e4d84/004954_9ccd82eefd4de1b38438ff830c4e4d84.jpg"-->
+                <!--style="height: 100%;width: auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%;padding-top: 12px;">
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/9b3d3767b3e85a235d1f65bf8ba77c79/043652_9b3d3767b3e85a235d1f65bf8ba77c79.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/0925b4dc8b548f996d08fa9230085568/005040_0925b4dc8b548f996d08fa9230085568.jpg"-->
+                <!--style="height: 100%;width:auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;float: right;
+            margin:0;padding:0;position: relative">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/16_09_2018/98b5eb9f0e7edbabf85aac621baff8ea/043656_98b5eb9f0e7edbabf85aac621baff8ea.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/0925b4dc8b548f996d08fa9230085568/005040_0925b4dc8b548f996d08fa9230085568.jpg"-->
+                <!--style="height: 100%;width:auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--DAY 02 END-->
+
+<!--DAY 03-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/17_09_2018/a717a4927de2846e28f820657c38af9a/163155_a717a4927de2846e28f820657c38af9a.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 03</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                    @Taipei City</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    Today was a bit of a write off - after our crazy night out we spent the whole day in bed! We forced ourselves out of the hotel room by around 6pm (by then the sun had already set.) We met up with a couple of local photographers and went to a back street with a perfect view of the 101 tower. One of the locals had some light up masks which were cool as a photo prop! After that we all went back to bed haha, it was a bit of a wasted day but ah well it’s sometimes needed!                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--DAY 03 END-->
+
+<!--DAY 04-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/e0146462b9176fb2be55faa36ea33fa8/015134_e0146462b9176fb2be55faa36ea33fa8.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 04</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                    @Taipei</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    Today was spent shopping and trying out more food (we couldn’t resist stopping by our favourite avo toast cafe again haha)            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/d0f6f982bcfff4d735add6d297b1b094/015137_d0f6f982bcfff4d735add6d297b1b094.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <!--<div style="padding-left: 15px;position: absolute;bottom: 20px">-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>-->
+                    <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">-->
+                    <!--@Shilin Night Market</p>-->
+                    <!--<p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">-->
+                    <!--The Shilin night market was so much fun! We spent hours playing random games (most of the time loosing) but between us all we won 4 prizes which we were quite proud of haha. We ended the night at around 10pm and immediately crashed after a long but awesome first day! I’m excited to see what tomorrow brings!-->
+                    <!--</p>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%">
+            <div style="height: 733px;width: 505px;display: inline-block;float: left;margin:0;padding:0;">
+                <div style="position: relative;width: 100%;height: 100%">
+                    <div style="padding-right: 15px;position: absolute;bottom: 20px">
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day
+                            04</p>
+                        <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                            @Taipei</p>
+                        <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                            At around 5pm we decided to take a hike up the famous elephant mountain for sunset! The walk wasn’t too crazy (only around 400 steps) but it was super humid which made it almost unbearable haha. By the time we reached the top we were dripping in sweat, worth it for the sunset view though!                    </div>
+                </div>
+            </div>
+            <div style="height: 733px;width: 505px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div style="height: 100%;width: 100%;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/b8f7683e33d751d2c563061e9863e019/015801_b8f7683e33d751d2c563061e9863e019.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--DAY 04 END-->
+
+<!--DAY 05-->
+<div class="break-after bg-white new-page" style="position: relative">
+    <div class="bg-white" style="width:1010px;height: auto;position: absolute;bottom: 0;">
+        <div style="height: 1474px;width:1010px;">
+            <div style="height: 100%;width: 100%;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/2a18f79c385395a47a793b51635e81e7/021006_2a18f79c385395a47a793b51635e81e7.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>
+        </div>
+        <div style="">
+            <div style="float: left;">
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 05</p>
+                <p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">
+                    @Jioufen</p>
+                <p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">
+                    Today we drove out of the city for 45 minutes to head to a place called Jioufen. This place was really cool, full of temples, views over the ocean, cultural streets and interesting food!        </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <div style="height: 1474px;width:1010px;">
+        <div style="height: 737px;width: 100%">
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                    float: left;position: relative;">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/bee287035f99bcb293fd4b0e40536515/021010_bee287035f99bcb293fd4b0e40536515.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/9ccd82eefd4de1b38438ff830c4e4d84/004954_9ccd82eefd4de1b38438ff830c4e4d84.jpg"-->
+                <!--style="height: 100%;width: auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+            <div
+                    style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;margin:0;padding:0;
+                float: right;position: relative;">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/977918c6af99d731f8c023582a7e5cc4/021012_977918c6af99d731f8c023582a7e5cc4.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/9ccd82eefd4de1b38438ff830c4e4d84/004954_9ccd82eefd4de1b38438ff830c4e4d84.jpg"-->
+                <!--style="height: 100%;width: auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+        </div>
+        <div style="height: 737px;width: 100%;padding-top: 12px;">
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;float: left;
+            margin:0;padding:0;position: relative">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/3f1d05073dac9a95783422754984ee53/021016_3f1d05073dac9a95783422754984ee53.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/0925b4dc8b548f996d08fa9230085568/005040_0925b4dc8b548f996d08fa9230085568.jpg"-->
+                <!--style="height: 100%;width:auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+            <div style="height: 720px;width: 490px;background-color: skyblue;display: inline-block;float: right;
+            margin:0;padding:0;position: relative">
+                <div
+                        style="height: 100%;width: auto;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/2d6b01f91e487ff20c8de4b605e62c42/021025_2d6b01f91e487ff20c8de4b605e62c42.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;">
+                </div>
+                <!--<img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/0925b4dc8b548f996d08fa9230085568/005040_0925b4dc8b548f996d08fa9230085568.jpg"-->
+                <!--style="height: 100%;width:auto;position: absolute;top:50%;left:50%;-->
+                <!--transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="break-after bg-white new-page">
+    <!--<div style="height: 80px;"></div>-->
+    <div style="height: 100%;margin: auto;position: relative">
+        <img src="https://s3.amazonaws.com/tl-prod-image-nv/2018/September/19_09_2018/beafcab1a50d29be826d6febce215e3e/021030_beafcab1a50d29be826d6febce215e3e.jpg"
+             style="height:100% ;position: absolute;top:50%;left:50%;
+        transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);" alt="">
+        <!--<div style="height: 100%;width: auto;object-fit: cover;background-image:url(https://s3.amazonaws.com/tl-prod-image-nv/2018/September/15_09_2018/5ed90dabc2fbfd4c5cb0bef4d4d350be/010220_5ed90dabc2fbfd4c5cb0bef4d4d350be.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center"></div>-->
+    </div>
+    <div style="width: 750px;margin: auto">
+        <!--<div style="float: left;width: 450px;">-->
+        <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 30px;-webkit-margin-after: 0">Day 01</p>-->
+        <!--<p class="avenir-heavy" style="font-weight: 700;font-size: 24px;color: #2f3739;line-height: 5px;">-->
+        <!--@Taipei Hotel</p>-->
+        <!--<p class="avenir-medium" style="font-size: 20px;color:#393f42;line-height: 35px;">-->
+        <!--A few days ago I was sat on the beach in Bali with Lauren, Jacob, and Hayley when we all decided-->
+        <!--to spontaneously book a trip to a new destination; Taipei! None of us knew anything about this-->
+        <!--place so we were pretty excited to explore! We arrived late at night & checked into our hotel-->
+        <!--(Palais de Chine)!-->
+        <!--</p>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--DAY 05 END-->
+
+
+<!--JOURNEY POSTS END-->
+
+
+
+</body>
+</html>
